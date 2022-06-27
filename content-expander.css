@@ -1,0 +1,27 @@
+.expander {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    cursor: pointer;
+}
+
+.collapsed .title::before {
+    content: "\25B6";
+    padding-right: 1em;
+}
+
+.expanded .title::before {
+    content: "\25BC";
+    padding-right: 1em;
+
+}
+
+.collapsed .content {
+    display: none;
+}
+
+.expanded .content {
+    padding-left: 2em;
+}

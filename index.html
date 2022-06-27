@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Web Components</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+    <link rel="stylesheet" href="index.css">
+    <script src="content-expander.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Web Components</h1>
+    </header>
+    <main>
+        <content-expander title="Text Expander">
+            Text
+        </content-expander>
+        <content-expander title="Div Expander">
+            <div class="highlight">Text inside a div</div>
+        </content-expander>
+        <content-expander title="Paragraph Expander">
+            <p>Text inside a paragraph</p>
+        </content-expander>
+        <content-expander title="List Expander">
+            <ul>
+                <li>bullet</li>
+                <li>list</li>
+            </ul>
+        </content-expander>
+        <content-expander title="No Slot Expander"></content-expander>
+    </main>
+</body>
+
+</html>

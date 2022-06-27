@@ -1,0 +1,12 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+div.highlight {
+    background-color: yellow;
+}
+
+/* No effect on content expander as target lives inside shadow root of web component */
+div.content {
+    background-color: aquamarine;
+}
