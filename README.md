@@ -10,3 +10,5 @@ An example of creating a simple web component
 [Open Web Components](https://open-wc.org/)
 
 [Web components in the wild](https://open-wc.org/codelabs/basics/web-components.html#6)
+
+[Styling the shadow dom](https://css-tricks.com/styling-in-the-shadow-dom-with-css-shadow-parts/)
