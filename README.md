@@ -8,4 +8,5 @@ An example of creating a simple web component
 [Google Lit](https://lit.dev/)
 
 [Open Web Components](https://open-wc.org/)
+
 [Web components in the wild](https://open-wc.org/codelabs/basics/web-components.html#6)
